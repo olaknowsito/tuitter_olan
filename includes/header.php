@@ -45,7 +45,7 @@
             <a href="index.php" style="color:white">Tuitter</a>
         </div>
 
-        <div class="search">
+        <div class="search" hidden>
             <form action="search.php" method="GET" name="search_form">
                 <!-- value of whatever they are typing -->
                 <input type="text" onkeyup="getLiveSearchUsers(this.value, '<?php echo $userLoggedIn?>')" name="q" placeHolder="Search..." autocomplete="off" id="search_text_input">
